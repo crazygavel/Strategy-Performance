@@ -43,7 +43,7 @@ def app_content():
     st.set_page_config(layout="wide")  # Set full-width layout
     
     # Replace with your actual Google Sheets CSV URL
-    google_sheets_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTuyGRVZuafIk2s7moScIn5PAUcPYEyYIOOYJj54RXYUeugWmOP0iIToljSEMhHrg_Zp8Vab6YvBJDV/pub?output=csv"
+    google_sheets_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQPODlvKnIwsQyu1hNaWB80Ry1tiNtkYfWlXhXy88BUtwZsnCTG-4OigRTpmJRT-d4rbouElGtfdzOf/pub?output=csv"
     
     @st.cache_data(ttl=0)  # Caching har baar bypass hoga
     def load_data(url):
