@@ -87,7 +87,7 @@ def app_content():
         return pd.DataFrame()  # Return empty DataFrame in case of failure
     
     # Google Sheet URL
-    google_sheets_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTuyGRVZuafIk2s7moScIn5PAUcPYEyYIOOYJj54RXYUeugWmOP0iIToljSEMhHrg_Zp8Vab6YvBJDV/pub?output=csv"
+    google_sheets_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQPODlvKnIwsQyu1hNaWB80Ry1tiNtkYfWlXhXy88BUtwZsnCTG-4OigRTpmJRT-d4rbouElGtfdzOf/pub?output=csv"
     
     # Fetch fresh data without caching
     data = load_data(google_sheets_url)
